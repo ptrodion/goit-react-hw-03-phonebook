@@ -16,8 +16,8 @@ export const ContactsFilterByName = styled.input`
   &:hover {
     background-color: #6bad8e;
   }
-
+  /* 
   &:focus {
     border-color: #3498db;
-  }
+  } */
 `;
