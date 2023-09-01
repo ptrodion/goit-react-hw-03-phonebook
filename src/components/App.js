@@ -28,8 +28,6 @@ export class App extends Component {
     }
   }
 
-  componentDidMount;
-
   addContact = newContact => {
     const isThisNameNotUnique = this.state.contacts.some(
       telName => telName.name.toUpperCase() === newContact.name.toUpperCase()
